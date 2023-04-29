@@ -1,0 +1,510 @@
+{
+  "tag": "Hypertension",
+  "patterns": [
+    "What are the symptoms of hypertension?",
+    "How do I know if I have hypertension?",
+    "Can you tell me about hypertension symptoms?",
+    "What should I look out for if I suspect hypertension?",
+    "How is hypertension diagnosed?",
+    "What tests are used to diagnose hypertension?",
+    "Can I test myself for hypertension?",
+    "How often should I get my blood pressure checked?",
+    "What is considered high blood pressure?",
+    "What are the treatments for hypertension?",
+    "Can hypertension be cured?",
+    "How can I lower my blood pressure naturally?",
+    "What medications are used to treat hypertension?",
+    "Is lifestyle change enough to treat hypertension?"
+
+  ],
+  "responses": [
+    "Common symptoms of hypertension include headaches, shortness of breath, chest pain, and vision problems.",
+    "If you have hypertension, you may not experience any symptoms at all. That's why it's important to get regular check-ups.",
+    "Hypertension can cause damage to your organs over time, so it's important to get it under control. Talk to your doctor if you're concerned about your blood pressure.",
+    "Some people with hypertension experience nosebleeds, but this is not a common symptom. If you're experiencing frequent nosebleeds, it's best to see your doctor.",
+    "If you have hypertension, you may experience fatigue, confusion, or dizziness. If you're experiencing any of these symptoms, talk to your doctor.",
+    "To diagnose hypertension, your doctor will take your blood pressure and check it over time to see if it's consistently high.",
+    "Your doctor may also recommend blood tests, urine tests, or other tests to check for underlying conditions that could be causing your hypertension.",
+    "You can't diagnose hypertension on your own, but you can monitor your blood pressure at home if your doctor recommends it. Just be sure to follow their instructions closely.",
+    "Your doctor will recommend how often you should get your blood pressure checked based on your age, health, and other factors. In general, it's recommended to get your blood pressure checked at least once a year.",
+    "High blood pressure is generally considered to be a reading of 130/80 mmHg or higher. However, your doctor may use different criteria depending on your individual circumstances.",
+    "There is no cure for hypertension, but it can be managed with lifestyle changes and medication.",
+    "If you have hypertension, your doctor will recommend lifestyle changes such as losing weight, exercising more, and reducing your salt intake.",
+    "Natural remedies such as meditation, yoga, and relaxation techniques may also help lower your blood pressure.",
+    "If lifestyle changes aren't enough to control your hypertension, your doctor may prescribe medication such as ACE inhibitors, diuretics, or beta blockers.",
+    "In some cases, lifestyle changes alone may be enough to control your hypertension. It's important to work closely with your doctor to find the best treatment plan for you."
+  ]
+},
+
+{
+  "tag": "hypertension_symptoms",
+  "patterns": [
+
+  ],
+  "responses": [
+    "I'm sorry to hear that. Would you like to talk more about what you're experiencing?",
+    "That sounds really difficult. Can you tell me more about what you're going through?",
+    "I can imagine how hard that must be. Can you elaborate on what you're feeling?",
+    "It sounds like you're struggling. Can you share more about what's going on?",
+    "I hear you. What can I do to support you right now?",
+    "That sounds really challenging. Have you talked to anyone about what you're experiencing?",
+    "You're not alone in this. How can I assist you in managing your symptoms?",
+    "I'm here for you. Would you like to explore some coping strategies?"
+  ]
+},
+
+{
+  "tag": "PTSD",
+  "patterns": [
+
+    "How can PTSD be treated?",
+    "What are some treatments for PTSD?",
+    "Is there a cure for PTSD?",
+    "How can I manage my PTSD?",
+    "What kind of therapy is used to treat PTSD?",
+    "Can medication help with PTSD?",
+    "What are some self-care strategies for managing PTSD?", "Where can I find support for PTSD?",
+    "Are there any support groups for PTSD?",
+    "What resources are available for people with PTSD?",
+    "Where can I find more information about PTSD?"
+  ],
+  "responses": [
+    "There are several evidence-based treatments for PTSD, such as cognitive behavioral therapy and eye movement desensitization and reprocessing (EMDR).",
+    "While there is no cure for PTSD, it can be effectively managed with the right treatment and support.",
+    "Medication can be helpful in managing some symptoms of PTSD, but therapy is generally considered the most effective form of treatment.",
+    "Self-care is an important part of managing PTSD. Some strategies may include exercise, meditation, spending time in nature, and practicing relaxation techniques.",
+    "If you're interested in exploring treatment options, I can help you find a qualified mental health professional in your area.", "There are many resources available for individuals with PTSD, such as support groups, online forums, and helplines."
+  ]
+},
+
+
+
+{
+  "tag": "eating_problem",
+  "patterns": [
+    "I'm struggling with my eating habits.",
+    "I can't seem to control my eating.",
+    "I have a problem with binge eating.",
+    "I'm always thinking about food.",
+    "I feel guilty after I eat.",
+    "I'm afraid to eat in front of others.",
+    "I've been skipping meals.",
+    "I eat when I'm stressed or upset.",
+    "I'm worried about my weight.",
+    "I'm not hungry but I can't stop eating.",
+    "I'm eating way too much."
+  ],
+  "responses": [
+    "I'm sorry to hear that. It sounds like you're going through a tough time.",
+    "It's great that you're reaching out for help. Let's talk about what's been going on.",
+    "You're not alone. Many people struggle with eating problems. Can you tell me more about your situation?",
+    "Thank you for sharing that with me. Let's work together to find a solution.",
+    "That must be difficult to deal with. Have you talked to a professional about it,if not do consult",
+    "I understand how you feel. Let's see what we can do to help you feel better."
+  ]
+},
+
+{
+  "tag": "bdd",
+  "patterns": [
+    "What are the symptoms of BDD?",
+    "How do I know if I have BDD?",
+    "What are some signs of BDD?",
+    "What are the common symptoms of BDD?",
+    "Can you describe what BDD feels like?",
+    "What are the treatment options for BDD?",
+    "How can I get help for BDD?",
+    "What kind of therapy is effective for BDD?",
+    "Is there a cure for BDD?",
+    "Can medication help with BDD?",
+    "How do I know what kind of treatment is right for me?",
+  ],
+  "responses": [
+    "Some common symptoms of BDD include obsessive thoughts about perceived flaws in one's appearance, spending a lot of time checking, grooming or hiding the perceived flaws, seeking reassurance from others about their appearance, and avoiding social situations or becoming depressed as a result of the perceived flaws.",
+    "People with BDD may also experience anxiety, shame, and a distorted sense of self-image.",
+    "If you think you might have BDD, it's important to speak with a mental health professional who can help you better understand your symptoms and provide appropriate treatment.",
+    "Treatment for BDD usually involves a combination of therapy and medication.",
+    "Cognitive Behavioral Therapy (CBT) and Exposure and Response Prevention (ERP) have been shown to be effective in treating BDD.",
+    "Medications such as selective serotonin reuptake inhibitors (SSRIs) may also be used to treat BDD.",
+    "It's important to speak with a mental health professional who can help you determine the best treatment approach for your individual needs.",
+    "Remember, there is hope for recovery from BDD. With the right treatment, many people are able to manage their symptoms and improve their quality of life."
+  ]
+},
+
+{
+  "tag": "BPD",
+  "patterns": [
+    "What are the symptoms of BPD?",
+    "What are the signs of BPD?",
+    "Can you tell me more about BPD symptoms?",
+    "How do I know if I have BPD?",
+    "What are the treatments for BPD?",
+    "How is BPD treated?",
+    "Is there a cure for BPD?",
+    "Can BPD be treated?",
+    "How does BPD affect relationships?",
+    "Can people with BPD have healthy relationships?",
+    "Why do people with BPD have trouble in relationships?",
+    "What can I do to improve my relationship with someone who has BPD?",
+    "Why do people with BPD self-harm?",
+    "How can I stop self-harming if I have BPD?",
+    "What are some alternatives to self-harm?",
+    "How can I support someone with BPD who self-harms?"
+  ],
+
+  "responses": [
+    "BPD symptoms may include intense and unstable emotions, unstable relationships, impulsive behavior, distorted self-image, and fear of abandonment.",
+    "Some common BPD symptoms include mood swings, self-harm, reckless behavior, fear of abandonment, and intense feelings of emptiness or worthlessness.", "BPD can be treated with various forms of therapy, such as Dialectical Behavior Therapy (DBT), Cognitive Behavioral Therapy (CBT), and Schema Therapy.",
+    "While there is no cure for BPD, with the right treatment and support, many people with BPD can learn to manage their symptoms and live a fulfilling life.",
+    "Treatment for BPD may include therapy, medication, and self-care techniques.", "People with BPD may struggle with intense and unstable emotions, which can make it difficult for them to maintain healthy relationships.",
+    "However, with the right treatment and support, many people with BPD can learn to improve their relationships and communication skills.",
+    "If you are in a relationship with someone who has BPD, it can be helpful to learn about the disorder and practice healthy communication and boundaries.", "Self-harm may be a coping mechanism for people with BPD who struggle with intense emotions and feelings of emptiness or worthlessness.",
+    "If you are struggling with self-harm, it is important to seek professional help and develop healthy coping mechanisms.",
+    "Some alternatives to self-harm may include deep breathing, exercise, journaling, or talking to a trusted friend or therapist.",
+    "If someone you know with BPD is self-harming, it is important to offer support and encourage them to seek professional help."
+  ]
+},
+
+{
+  "tag": "relationship_issue",
+  "patterns": [
+    "I'm having problems in my relationship",
+    "My partner and I are having issues",
+    "I don't know how to communicate with my partner",
+    "I'm feeling disconnected from my partner",
+    "My partner and I keep fighting",
+    "I'm not sure if I want to stay in this relationship",
+    "My partner cheated on me",
+    "I'm going through a break-up"
+  ],
+  "responses": [
+    "I'm sorry to hear that. Can you tell me more about what's going on?",
+    "It sounds like you're going through a tough time. How can I help?",
+    "Relationships can be challenging. Let's talk about what's been going on.",
+    "I'm here to listen. What would you like to share?",
+    "It's normal to have ups and downs in a relationship. Let's work through this together.",
+    "That sounds really difficult. How have you been coping?",
+    "I'm here to support you. What do you need right now?"
+  ]
+},
+
+{
+  "tag": "communication_issues",
+  "patterns": [
+    "We can't seem to communicate effectively",
+    "I don't know how to express myself to my partner",
+    "My partner doesn't listen to me",
+    "We keep misunderstanding each other",
+    "I'm afraid to bring up certain topics with my partner"
+  ],
+  "responses": [
+    "Communication is key in any relationship. Let's work on improving it together.",
+    "It can be challenging to express ourselves sometimes. Let's talk about some strategies for effective communication.",
+    "I'm sorry to hear that you feel unheard. Let's work on ways to improve your communication with your partner.",
+    "Misunderstandings can be frustrating. Let's talk about how to clarify things with your partner.",
+    "It's common to feel nervous about discussing certain topics. Let's work on ways to approach these conversations.",
+    "Communication is a two-way street. Let's talk about how you and your partner can work together to improve it."
+  ]
+},
+
+{
+  "tag": "trust_issues",
+  "patterns": [
+    "I'm having trust issues in my relationship",
+    "My partner cheated on me",
+    "I don't know if I can trust my partner",
+    "I'm afraid of getting hurt again",
+    "How can I rebuild trust in my relationship?"
+  ],
+  "responses": [
+    "Trust issues can be difficult to deal with. Let's talk about what's going on in your relationship.",
+    "I'm sorry to hear that your partner cheated on you. Let's talk about how you're feeling and what you can do next.",
+    "Rebuilding trust takes time and effort, but it's possible. Let's discuss some strategies.",
+    "It's normal to feel afraid of getting hurt again after experiencing betrayal. Let's talk about ways to move forward."
+  ]
+},
+
+{
+  "tag": "breakups",
+  "patterns": [
+    "My partner and I broke up",
+    "I just got out of a relationship",
+    "I'm feeling heartbroken",
+    "How do I move on from a breakup?",
+    "How can I cope with a broken heart?"
+  ],
+  "responses": [
+    "I'm sorry to hear that you're going through a breakup. Let's talk about how you're feeling.",
+    "Breakups can be tough. Let's work together to find ways to help you cope.",
+    "Moving on from a breakup can take time, but there are ways to make it easier. Let's discuss some options.",
+    "It's normal to feel heartbroken after a breakup. Let's talk about ways to heal and move forward."
+  ]
+},
+
+
+
+{
+  "tag": "parental_issues",
+  "patterns": [
+    "I'm having problems with my parents",
+    "My parents are always fighting",
+    "My parents don't understand me",
+    "I'm not getting along with my parents",
+    "My parents are too strict",
+    "My parents are too overprotective",
+    "I feel like my parents don't trust me",
+    "My parents are putting too much pressure on me",
+    "My parents are getting divorced",
+    "My parents are getting remarried"
+  ],
+  "responses": [
+    "I'm sorry to hear that. Would you like to talk more about it?",
+    "That sounds really tough. Can you tell me more?",
+    "It's normal to have conflicts with parents sometimes. Have you tried talking to them?",
+    "I'm here to listen if you want to share more about what's going on.",
+    "It's important to take care of yourself. Is there anything you can do to make the situation better?",
+    "Remember, your parents love you and want the best for you. Maybe there's a way to work things out together."
+  ]
+},
+
+{
+  "tag": "Insomnia",
+  "patterns": [
+    "I can't sleep",
+    "I have Insomnia",
+    "Insomnia",
+    "I'm not getting enough sleep",
+    "I'm struggling to fall asleep",
+    "I wake up frequently during the night",
+    "I'm tired all the time"
+  ],
+  "responses": [
+    "Insomnia can be tough. Have you tried any relaxation techniques before bed?",
+    "Have you spoken to your doctor about your Insomnia?",
+    "I'm sorry to hear that. Have you tried limiting screen time before bed?",
+    "Insomnia can be caused by stress. Is there anything causing you stress at the moment?",
+    "I recommend establishing a regular sleep schedule. What time do you usually go to bed?",
+    "Have you tried taking melatonin or other sleep aids?"
+  ]
+},
+
+
+{
+  "tag": "hallucinations",
+  "patterns": [
+    "I am having hallucinations",
+    "I see things that aren't there",
+    "I hear voices",
+    "My senses are distorted",
+    "I feel like I'm in a dream",
+    "I'm experiencing altered perceptions",
+    "I'm seeing illusions",
+    "My reality feels altered",
+    "I can't tell what's real and what's not",
+    "I'm having sensory experiences that aren't real",
+    "I'm seeing things that no one else sees",
+    "I'm hearing things that no one else hears"
+  ],
+  "responses": [
+    "It sounds like you're experiencing hallucinations. Can you tell me more about what you're experiencing?",
+    "Hallucinations can be a symptom of different conditions. It's important to seek professional help. Have you talked to a doctor or mental health professional?",
+    "I'm sorry you're going through this. It must be very difficult. Can you share more about your experiences?",
+    "Hallucinations can be a scary experience. You're not alone, and it's important to get help. Have you considered talking to a therapist or counselor?",
+    "I'm here to listen and support you. Please don't hesitate to share what you're feeling.",
+    "It takes courage to speak up about these experiences. Have you talked to anyone else about what you're going through?",
+    "I understand that these experiences can be overwhelming. It's important to seek help and find coping strategies. Have you tried any techniques to manage your symptoms?"
+  ]
+},
+
+
+
+{
+  "tag": "hearing_voices",
+  "patterns": [
+    "I hear voices in my head",
+    "The voices won't stop",
+    "I can't make the voices go away",
+    "The voices are telling me to do things",
+    "I feel like I'm going crazy because of the voices",
+    "I can't concentrate because of the voices",
+    "The voices are getting louder",
+    "I feel like the voices are real",
+
+  ],
+  "responses": [
+    "I'm sorry to hear that. Can you tell me more about the voices?",
+    "Have you talked to a professional about the voices, if not then do so!",
+    "Do you feel like the voices are coming from inside or outside your head?",
+    "It must be very distressing to hear voices. How can I support you?",
+    "Sometimes hearing voices can be a symptom of an underlying condition. Have you seen a doctor about this, if not then do so!",
+    "I'm here to listen and support you. Can you tell me more about how the voices are affecting you?"
+  ]
+},
+
+
+
+{
+  "tag": "hopelessness",
+  "patterns": [
+    "I feel hopeless",
+    "I have lost hope",
+    "There is no point in anything",
+    "Nothing matters",
+    "I don't see the point of anything",
+    "Life is meaningless",
+    "I can't see a way out",
+    "I feel lost",
+    "I don't know what to do",
+    "Everything feels pointless",
+    "I can't take it anymore",
+    "There's no hope for me",
+    "I feel helpless"
+  ],
+  "responses": [
+    "I'm sorry you're feeling that way. It sounds really tough.",
+    "It's okay to feel this way sometimes. Would you like to talk about what's been going on?",
+    "I understand that things may seem hopeless right now, but I want to help you find a way to feel better.",
+    "You're not alone in feeling this way. Would you like to explore some options to help you cope?",
+    "Remember that your feelings are valid. Let's try to work through this together.",
+    "I know it's hard to see a way out right now, but there is always hope. Let's talk about how we can find it.",
+    "It can be hard to see the light at the end of the tunnel, but there is always hope. Let's talk about how we can find it together.", "Please know that there are people who care about you and want to help. Let's talk about what we can do together to make things better."
+  ]
+},
+
+{
+  "tag": "impulsive_behavior",
+  "patterns": [
+    "I can't control my impulses",
+    "I act before I think",
+    "I make impulsive decisions",
+    "I have trouble resisting urges",
+    "I act impulsively",
+    "I have trouble controlling my impulses",
+    "I can't resist the urge to do things",
+    "I feel like I'm not in control of my behavior",
+    "I act on impulses without thinking",
+    "I have been diagnosed with an impulse control disorder"
+
+  ],
+  "responses": [
+    "It's common to struggle with impulsive behavior. Let's talk more about what's been going on.",
+    "Impulsive behavior can be a symptom of different mental health conditions. Can you tell me more?",
+    "How long have you been experiencing impulsive behavior?",
+    "Have you noticed any triggers or patterns that lead to your impulsive behavior?",
+    "Let's work on some strategies to help you manage your impulses.", "Impulse control disorders can be challenging to manage, but there are effective treatments available.",
+    "Let's talk more about what's been going on and what kind of help you're looking for.",
+    "Have you tried any coping strategies or therapies to manage your impulses?",
+    "It's important to work with a mental health professional to address your impulse control disorder.",
+    "Remember that you are not your disorder. You have the power to make positive changes in your life."
+  ]
+},
+
+{
+  "tag": "self_harm",
+  "patterns": [
+    "I hurt myself when I feel overwhelmed",
+    "I have a history of self-harm",
+    "I cut myself to feel better",
+    "I don't know how to stop hurting myself",
+    "I feel like I deserve to be punished"
+  ],
+  "responses": [
+    "Self-harm is a serious issue. Are you in a safe place right now?",
+    "You don't have to go through this alone. Have you talked to anyone about your self-harm before?",
+    "Let's talk about what triggers your self-harm and how we can find healthier coping mechanisms.",
+    "There's no shame in struggling with self-harm. It's a common way to cope with difficult emotions.",
+    "If you feel like you're in immediate danger, please call your local emergency services."
+  ]
+}, {
+  "tag": "symptoms",
+  "patterns": [
+    "What are the symptoms of Factitious disorder?",
+    "What are the signs of Factitious disorder?",
+    "Can you tell me about the symptoms of Factitious disorder?",
+    "How can I identify Factitious disorder?",
+    "What causes Factitious disorder?",
+    "Why do people develop Factitious disorder?",
+    "What are the risk factors for Factitious disorder?",
+    "How is Factitious disorder treated?",
+    "What kind of treatment is available for Factitious disorder?",
+    "Can Factitious disorder be cured?",
+    "Is there any medication for Factitious disorder?",
+    "Where can I find support for Factitious disorder?",
+    "Is there any support group for Factitious disorder?",
+    "How can I help a loved one with Factitious disorder?"
+
+  ],
+  "responses": [
+    "Some common symptoms of Factitious disorder include feigning physical or psychological symptoms, exaggerating symptoms, manipulating test results, and seeking unnecessary medical attention.",
+    "People with Factitious disorder often have a history of frequent hospitalizations and medical procedures, as well as a willingness to undergo invasive diagnostic tests or procedures.", "The exact cause of Factitious disorder is not known, but it may be related to a history of abuse or neglect in childhood, or a need for attention or sympathy from others.",
+    "People with Factitious disorder may also have a personality disorder or other mental health condition.", "Treatment for Factitious disorder often involves therapy to address the underlying psychological issues that may be driving the behavior. In some cases, medication may also be prescribed to manage associated symptoms such as anxiety or depression.",
+    "It is important for individuals with Factitious disorder to receive compassionate, non-judgmental care to help them understand and overcome their behavior.", "There are support groups and resources available for individuals with Factitious disorder and their families. Your healthcare provider or a mental health professional can provide information and referrals.",
+    "It is important to offer compassion and support to loved ones with Factitious disorder, while also encouraging them to seek professional help."
+  ]
+}, {
+  "tag": "LGBTQ_issues",
+  "patterns": [
+    "How do I come out?",
+    "I'm scared to come out",
+    "What if my family doesn't accept me?",
+    "How can I tell my friends I'm LGBTQ+?",
+    "What if people at work find out?",
+    "I want to come out, but I don't know how"
+  ],
+  "responses": [
+    "Coming out can be a difficult and emotional experience. It's important to remember that you are not alone and there are resources available to help. Would you like me to provide some resources?",
+    "It's understandable to feel scared about coming out. Remember that it's your decision to come out, and you don't have to do it until you're ready. Would you like to talk about your concerns or get some advice on coming out?",
+    "It can be hard when you feel like the people closest to you might not accept you for who you are. It's important to prioritize your own safety and well-being. Would you like to talk about some strategies for coming out or finding supportive resources?",
+    "Coming out to friends can be nerve-wracking, but it's also an opportunity to build deeper connections and trust. Would you like some tips on how to approach coming out to your friends?",
+    "It's understandable to worry about how being LGBTQ+ might impact your work environment. Remember that you have legal protections in many places, and it's always important to prioritize your safety and well-being. Would you like some resources or advice on how to navigate being LGBTQ+ at work?",
+    "Navigating relationships can be complex, but it's important to prioritize your own well-being and boundaries",
+    "It can be nerve-wracking to approach someone you're interested in, but remember that there's no one 'right' way to do it. Would you like some tips on how to approach someone you're interested in?",
+    "LGBTQ+ dating can come with its own unique challenges, but it's also an opportunity to connect with others who share your experiences. Would you like some resources or advice on how to navigate LGBTQ+ dating?",
+    "Relationship problems can be difficult to navigate, but it's important to prioritize your own well-being and boundaries. Would you like some advice on how to communicate effectively with your partner or set healthy boundaries?",
+    "Being ready for a relationship can mean different things for different people. Would you like some advice on how to assess your own readiness for a relationship?",
+    "Building a healthy relationship takes effort and communication, but it can be very rewarding.",
+    "I'm here to support you. Can you tell me more about what's been going on?",
+    "You don't have to go through this alone. We can work through this together.",
+    "It's brave of you to reach out for help. Let's talk about what you're feeling.",
+    "I'm sorry you're going through this. Let's find some resources that can help.",
+    "You're not alone. There are many people who understand what you're going through.",
+    "It's okay to feel overwhelmed. Let's take things one step at a time.",
+    "I'm here to listen without judgment. You can tell me anything.",
+    "I want you to know that your feelings are valid and important.",
+    "Remember that there is always hope, even in the darkest of times.",
+    "I'm proud of you for seeking help. That takes a lot of courage.",
+    "Let's work together to come up with some coping strategies that can help you feel better.",
+    "Know that you are loved and valued, no matter who you are or who you love."
+  ]
+},
+
+
+Here are some intents in the form of JSON patterns that contain the word "aging issues"
+for a Python mental therapy chatbot:
+
+  {
+    "tag": "aging-issues",
+    "patterns": [
+      "I'm having trouble dealing with aging issues",
+      "I feel overwhelmed by aging issues",
+      "How do I cope with aging issues?",
+      "I'm worried about the effects of aging on my body",
+      "My aging parent is struggling, what should I do?",
+      "I'm feeling lonely due to my aging issues",
+      "How can I maintain my independence as I age?",
+      "I'm experiencing health problems due to aging",
+      "How can I adjust to the changes that come with aging?",
+      "I'm concerned about financial security as I age"
+    ],
+    "responses": [
+      "It's understandable to feel overwhelmed by aging issues. Let's talk about some coping strategies.",
+      "Aging can be challenging. Tell me more about what you're experiencing.",
+      "Let's explore some ways to manage the effects of aging.",
+      "It's difficult to watch a parent struggle with aging. We can discuss ways to support them.",
+      "Feeling lonely due to aging is common. Let's talk about ways to combat isolation.",
+      "Maintaining independence as we age is important. Let's explore some strategies.",
+      "I'm sorry to hear about your health problems. Let's talk about ways to manage your symptoms.",
+      "Adjusting to the changes that come with aging can be tough. Let's work on a plan together.",
+      "Financial concerns are common with aging. Things will settle down give it some time ."
+    ]
+  }

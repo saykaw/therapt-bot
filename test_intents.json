@@ -1,0 +1,1504 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hi there",
+                "Hello",
+                "Hey there",
+                "Howdy",
+                "Hola",
+                "Bonjour",
+                "Konnichiwa",
+                "Guten tag",
+                "Ola"
+            ],
+            "responses": [
+                "Hello there. Tell me how are you feeling today?",
+                "Hi there. How are you feeling today?",
+                "Hello! How can I assist you today?",
+                "Hi there. What brings you here today?",
+                "Hello, how may I help you?",
+                "Hey! How can I be of assistance?",
+                "Hi, it's nice to hear from you. What can I help you with?"
+
+            ]
+        },
+        {
+            "tag": "morning",
+            "patterns": [
+                "Good morning",
+                "Morning"
+            ],
+            "responses": [
+                "Good morning. I hope you had a good night's sleep. How are you feeling today? ",
+                "Good morning!",
+                "Top of the morning to you too! How are you feeling today?",
+                "Good morning! I hope you're feeling rested and ready for the day.",
+                "Morning! How's it going today?",
+                "Good day to you too! How are you doing?"
+            ]
+        },
+        {
+            "tag": "afternoon",
+            "patterns": [
+                "Good afternoon",
+                "Good noon"
+            ],
+            "responses": [
+                "Good afternoon. How is your day going?",
+                "Good afternoon! I hope your day is going well so far.",
+                "Hello there. How is your afternoon treating you?",
+                "Hi, hope you're having a good afternoon. Anything interesting going on?",
+                "Good afternoon! Is there anything you'd like to chat about today?"
+            ]
+        },
+        {
+            "tag": "evening",
+            "patterns": [
+                "Good evening"
+            ],
+            "responses": [
+                "Good evening. How has your day been?",
+                "Hi there. How are you doing this evening?",
+                "Hello. What's on your mind tonight?",
+                "Good evening. Is there anything you'd like to talk about?"
+            ]
+        },
+        {
+            "tag": "night",
+            "patterns": [
+                "Good night",
+                "I'm going to bed",
+                "Time for me to sleep",
+                "I'm off to sleep"
+            ],
+            "responses": [
+                "Goodnight, sleep well!",
+                "Sweet dreams!",
+                "Sleep tight, don't let the bed bugs bite!",
+                "Rest well and recharge for tomorrow.",
+                "Wishing you a peaceful and restful sleep."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Au revoir",
+                "Sayonara",
+                "ok bye",
+                "Bye then",
+                "Fare thee well",
+                "I gotta go",
+                "It's time for me to leave",
+                "I'll talk to you later",
+                "Take care",
+                "So long",
+                "Until next time",
+                "See you soon",
+                "I have to run",
+                "Talk to you soon",
+                "See you around",
+                "It was nice talking to you"
+            ],
+            "responses": [
+                "See you later.",
+                "Have a nice day.",
+                "Take care and have a great day.",
+                "Bye for now.",
+                "Talk to you soon.",
+                "Have a great day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "Than you very much",
+                "I appreciate it",
+                "You're a lifesaver",
+                "Thanks a lot",
+                "You're amazing",
+                "I'm grateful",
+                "You have my gratitude"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!",
+                "Glad to be of help",
+                "Always happy to assist",
+                "No problem, anytime",
+                "It was my pleasure",
+                "You're welcome",
+                "Not a problem at all"
+            ]
+        },
+        {
+            "tag": "no-response",
+            "patterns": [""],
+            "responses": [
+                "Sorry, I didn't understand you.",
+                "Please go on.",
+                "Not sure I understand that.",
+                "Please don't hesitate to talk to me.",
+                "I'm sorry, I didn't catch that. Could you please rephrase or ask a question?",
+                "I'm sorry, I didn't understand. Can you please provide more information or ask a question?",
+                "I didn't receive any input. Please let me know how I can assist you."
+            ]
+        },
+        {
+            "tag": "neutral-response",
+            "patterns": [
+                "Nothing much",
+                "Not much",
+                "Nothing new",
+                "Same old, same old",
+                "Nothing much happening"
+            ],
+            "responses": [
+                "Oh I see. Do you want to talk about something?",
+                "I understand. Is there anything on your mind you'd like to discuss?",
+                "That's okay. Would you like to chat about anything in particular?",
+                "Okay. Is there something specific you'd like to talk about?",
+                "Got it. Is there anything you'd like to share with me?"
+            ]
+        },
+        {
+            "tag": "uncertain",
+            "patterns": [
+                "I don't know",
+                "Not sure",
+                "I'm uncertain",
+                "Can't decide",
+                "I don't know what to say",
+                "I have no idea",
+                "I'm clueless",
+                "It's hard to say",
+                "I'm at a loss"
+            ],
+            "responses": [
+                "That's okay, take your time.",
+                "It's okay to be uncertain. We can talk about it.",
+                "Sometimes it's hard to know. Let's explore it together.",
+                "Don't worry if you're not sure. We can figure it out together.",
+                "That's okay. It's alright not to have all the answers.",
+                "Don't worry, sometimes it's hard to find the right words.",
+                "It's okay to be unsure. Let's talk more and see if we can figure it out together.",
+                "No problem. Take your time and let me know if there's anything I can do to help."
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?",
+                "Tell me more about yourself.",
+                "What is your name?",
+                "What should I call you?",
+                "What's your name?",
+                "Tell me about yourself"
+            ],
+            "responses": [
+                "I'm MoMo, your Personal Therapeutic AI Assistant. How are you feeling today",
+                "I'm MoMo, a Therapeutic AI Assitant designed to assist you. Tell me about yourself.",
+                "You can call me MoMo.",
+                "I'm MoMo!",
+                "Call me MoMo"
+            ]
+        },
+        {
+            "tag": "purpose",
+            "patterns": [
+                "What is the purpose of this?",
+                "Why are we doing this?",
+                "What is the point of this?",
+                "Why am I here?",
+                "What is the goal of this?",
+                "What is the objective of this?",
+                "Why was this created?",
+                "What are we trying to achieve?"
+            ],
+            "responses": [
+                "The purpose of this is to provide therapeutic support to you.",
+                "The goal is to assist you in exploring and coping with your emotions.",
+                "The objective is to provide a safe and non-judgmental space for you to express yourself.",
+                "This was created to help people like you who may be struggling with their mental health.",
+                "Our aim is to support you in your mental health journey."
+            ]
+        },
+        {
+            "tag": "creation",
+            "patterns": [
+                "Who created you?",
+                "How were you made?",
+                "How were you created?",
+                "What technology was used to create you?",
+                "Who is responsible for creating you?"
+            ],
+            "responses": [
+                "I was created by group 8.",
+                "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques",
+                "I am a natural language processing AI.",
+                "I was programmed using Deep Learning algorithms."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "My name is ",
+                "I am name",
+                "I go by name"
+
+            ],
+            "responses": [
+                "Oh, nice to meet you! I'm MoMo",
+                "Nice to meet you. So tell me, how do you feel today?",
+                "That's a great name."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "Can you help?",
+                "I need support",
+                "I need help",
+                "Can you guide me?",
+                "Can you assist me?",
+                "I'm having trouble with something",
+                "Can you lend me a hand?",
+                "I don't know what to do",
+                "I need your help",
+                "I need someone to help me",
+                "Can you give me some advice?",
+                "I'm lost",
+                "Can you give me a tip?"
+            ],
+            "responses": [
+                "Absolutely, how can I assist you?",
+                "Don't worry, I'll do my best to help. What's going on?",
+                "Sure thing. What's the problem you're facing?",
+                "I'm happy to help. What do you need assistance with?",
+                "Yes, I'm here to support you. What can I do?",
+                "I'm ready to help. What's the matter?",
+                "Sure, let me know what you need help with.",
+                "I'll do my best to help you. What's the issue?",
+                "Yes, I can definitely give you some advice. What's the situation?",
+                "Don't worry, we'll figure it out together. What's the problem?",
+                "I'm here to support you. What do you need help with?",
+                "I'm happy to give you a tip. What's the topic?",
+                "Sure, I'm here to guide you. What's the problem?"
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+                "I am sad",
+                "I hate feeling sad all the time",
+                "I wish I could shake this feeling of sadness.",
+                "It's difficult to stay motivated when I am sad and despair.",
+                "I am feeling overwhelmed by my sadness.",
+                "When I am sad, it's hard to focus on anything else."
+            ],
+            "responses": [
+                "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?",
+                "I'm here for you. Could you tell me why you're feeling this way?",
+                "Why do you think you feel this way?",
+                "How long have you been feeling this way?",
+                "I'm sorry to hear that. Can you tell me more about what's been going on?",
+                "It sounds like you're going through a tough time. Would you like to talk about it?",
+                "You're not alone in feeling this way. I'm here to listen and support you.",
+                "I can imagine how hard it must be for you. Would you like to share more about what you're feeling?",
+                "It takes a lot of courage to reach out for help. I'm here to offer you support and guidance.",
+                "It's okay to feel sad sometimes. Would you like to share with me what's been causing your sadness?",
+                "I'm here to support you and help you find ways to cope with your sadness. Would you like to explore some coping strategies together?",
+                "I'm here to listen and support you through this difficult time. You don't have to face this alone.",
+                "Feeling sad is a normal and natural part of the human experience. It's okay to not be okay.",
+                "I'm here to offer you empathy and understanding. What can I do to support you right now?",
+                "It's important to take care of yourself during this difficult time. What are some self-care practices that have helped you in the past?",
+                "Remember that there is hope and help available. Let's work together to find ways to improve your mental health.",
+                "I'm here to offer you a safe and supportive space to express your emotions. What can I do to make you feel more comfortable?",
+                "I'm here to help you navigate your emotions and find ways to cope with your sadness. Would you like to explore some mindfulness or meditation practices?",
+                "I'm here to offer you support and guidance as you work through these difficult emotions.",
+                "I'm here to validate your emotions and help you find ways to cope with your sadness. What are some positive affirmations or mantras that have helped you in the past?"
+            ]
+        },
+        {
+            "tag": "tips-sadness",
+            "patterns": [
+                "What to do if i am sad all the time?",
+                "Any tips for not being sad?",
+                "What do i do then?",
+                "Any advice"
+            ],
+            "responses": " It's important to take care of yourself during difficult times. Here are a few tips: try to get enough sleep, eat nutritious food, exercise, talk to someone you trust, and practice self-care activities such as meditation or yoga.Remember that it's important to be kind and patient with yourself as you work through these difficult emotions. Remember that progress is not linear and that every small step counts."
+        },
+        {
+            "tag": "stressed",
+            "patterns": [
+                "I am feeling really stressed lately and it's starting to affect my health.",
+                "When I am stressed, I have a hard time sleeping and it feels like my mind is racing.",
+                "I feel like there are so many things to do and not enough time, and it's making me really stressed.",
+                "It's hard to focus on anything else when I am so stressed all the time.",
+                "I get stressed out easily and it feels like I can't handle even small tasks.",
+                "When I am stressed, I tend to feel overwhelmed and anxious."
+            ],
+            "responses": [
+                "I hear that you're feeling really stressed lately. That can be really tough to deal with. What are some things that you have found helpful in managing your stress?",
+                "Feeling stressed can take a toll on both our physical and mental health. Have you considered seeking support from a therapist or counselor to help you manage these feelings?",
+                "It's important to make time for self-care when you're feeling stressed. What are some activities that you enjoy doing that help you feel more relaxed and calm?",
+                "Stress can be a sign that we need to slow down and take a break. Have you tried any relaxation techniques, like deep breathing or meditation?",
+                "Thank you for sharing your feelings with me. It can be hard to talk about stress, but it's important to remember that you don't have to go through this alone. What are some ways that you can practice self-compassion and kindness towards yourself during this stressful time?",
+                "I'm here to support you through this tough time. Is there anything specific that you would like to talk about or explore during our session?",
+                "Stress can be a sign that something deeper is going on. Have you considered talking to a healthcare professional or seeking additional support to explore these feelings further?",
+                "Remember that it's okay to take a break and prioritize your mental health. What are some ways that you can build more relaxation and self-care into your daily routine?",
+                "Feeling stressed can be overwhelming, but it's important to remember that these feelings won't last forever. What are some strategies that you can use to manage your stress and feel more calm and centered?",
+                "It sounds like you're dealing with a lot of stress right now. Identifying the source of stress can help you address it more effectively. Once you know what's causing your stress, try to make a plan to manage it. Maybe you can break down your tasks into smaller, more manageable steps or delegate some responsibilities to others.",
+                "Feeling stressed can be really tough. Have you tried journaling or talking to a friend or family member about your feelings? Sometimes just talking about it can help alleviate some of the stress. Additionally, consider making time for relaxation activities like taking a warm bath or practicing yoga.",
+                "It's important to make time for self-care when you're feeling stressed. Consider activities that you enjoy doing that help you feel more relaxed and calm, like going for a walk, reading a book, or spending time with loved ones. Make self-care a priority in your daily routine.",
+                "Stress can take a toll on both our physical and mental health. Consider seeking support from a therapist or counselor to help you manage these feelings. They can provide you with coping strategies and offer a safe space to talk about your stressors.",
+                "Thank you for sharing your feelings with me. It's important to remember that you don't have to go through this alone. In addition to seeking support from a therapist, consider joining a support group or reaching out to a trusted friend or family member for help."
+            ]
+        },
+        {
+            "tag": "stress-management",
+            "patterns": [
+                "How do I manage stress?",
+                "Ways to cope with stress",
+                "How can I reduce stress?",
+                "I am feeling stressed, what should I do?",
+                "What are some techniques for managing stress?",
+                "How can I relax and de-stress?",
+                "What can I do to reduce my stress levels?",
+                "I need some help with managing my stress",
+                "Stress management tips"
+            ],
+            "responses": [
+                "Try deep breathing exercises, meditation or yoga to relax your mind and body.",
+                "Take a break and engage in activities that you enjoy, like listening to music, reading a book or going for a walk.",
+                "Make time for self-care and prioritize your mental and emotional well-being.",
+                "Speak to a therapist or mental health professional for personalized advice and support.",
+                "Practice mindfulness and focus on the present moment rather than worrying about the past or future.",
+                "Get enough sleep and maintain a healthy diet to support your physical and mental health.",
+                "Stay organized and create a routine to help manage your time and responsibilities.",
+                "Connect with loved ones and build a support system to help you through difficult times.",
+                "Remember to be kind to yourself and acknowledge your accomplishments and strengths."
+            ]
+        },
+        {
+            "tag": "depressed",
+            "patterns": [
+                "I can't take it anymore",
+                "I think i'm depressed.",
+                "I have depression",
+                "I'm so tired of everything",
+                "I feel hopeless",
+                "I'm losing interest in everything",
+                "I don't want to talk to anyone",
+                "I feel like giving up"
+            ],
+            "responses": [
+                "It helps to talk about what's happening. You're going to be okay",
+                "Talk to me. Tell me more. It helps if you open up yourself to someone else.",
+                "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal.",
+                "It's okay to feel this way. Let's talk about it together and find a way to make you feel better.",
+                "You're not alone in this. We can work on finding a solution together.",
+                "I'm here for you. You don't have to go through this alone.",
+                "Remember, it's okay to not be okay. Let's work together to help you feel better.",
+                "I'm sorry you're going through this. Let's talk about how we can make things better.",
+                "I know things may seem tough right now, but there is hope. Let's work together to find it.",
+                "You are not your depression. We can work on finding ways to manage it and improve your mood.",
+                "I'm here to support you in any way that I can. Let's work together to get through this.",
+                "It's okay to take a break and focus on yourself. Let's talk about how to prioritize your well-being.",
+                "There is always hope for a better tomorrow. Let's work together to find a way to get there."
+            ]
+        },
+        {
+            "tag": "depression-tips",
+            "patterns": [
+                "What can I do to feel better?",
+                "How can I improve my mood?",
+                "How do I cope with depression?",
+                "What are some tips for dealing with depression?",
+                "How do I get help for my depression?"
+            ],
+            "responses": [
+                "Remember to take care of yourself, both physically and mentally. Make sure you're eating well, getting enough sleep, and engaging in activities you enjoy.",
+                "Try to challenge negative thoughts and focus on the positive things in your life. Practice gratitude by writing down a few things you're thankful for each day.",
+                "It's important to talk to someone about how you're feeling. Consider speaking with a trusted friend or family member.",
+                "Incorporate exercise into your routine, as it can help boost mood and reduce symptoms of depression.",
+                "Remember that it's okay to ask for help. Depression is a treatable illness, and seeking professional help can make a big difference in your recovery."
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "I'm feeling fantastic",
+                "I'm on top of the world",
+                "I'm having a great day",
+                "I'm feeling wonderful",
+                "Life is good",
+                "I'm so grateful",
+                "I feel blessed",
+                "I'm in a good mood"
+            ],
+            "responses": [
+                "That's fantastic! It's great to see you so positive.",
+                "I'm glad to hear that. Keep up the good vibes!",
+                "Wonderful! It's important to savor the good moments in life.",
+                "That's great news. Let's keep the positivity going!",
+                "You deserve to feel happy. Keep up the good work!"
+            ]
+        },
+        {
+            "tag": "casual",
+            "patterns": [
+                "Sure",
+                "No problem",
+                "Cool",
+                "I guess",
+                "That's fine",
+                "All good",
+                "It's all good",
+                "Not a big deal",
+                "I don't really care",
+                "That's alright"
+            ],
+            "responses": [
+                "Let's discuss further why you're feeling this way.",
+                "How were you feeling last week?",
+                "I'm listening. Please go on.",
+                "Tell me more",
+                "Can you elaborate on that?",
+                "It's okay to not be sure about things. Let's talk about it.",
+                "I'm here to listen, so take your time.",
+                "I understand. What else would you like to talk about?",
+                "That's fine. Is there anything else on your mind?",
+                "No problem. Let's focus on how you're feeling.",
+                "Sure thing. What else is going on?"
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "My heart is racing and I can't stop worrying about everything",
+                "I feel like I'm suffocating and everything is out of my control",
+                "I'm so nervous that I can't even leave the house",
+                "The constant feeling of dread and fear is consuming me",
+                "I can't shake off this overwhelming sense of unease and restlessness",
+                "I feel like something bad is going to happen and I can't calm down",
+                "I can't focus on anything because my mind is always racing with worries",
+                "I'm so anxious that I feel like I'm going to pass out or throw up",
+                "I'm constantly checking and double-checking things because I'm afraid of making a mistake",
+                "I feel like I'm on edge all the time and I can't relax"
+            ],
+            "responses": [
+                "It's okay to feel overwhelmed, but try to focus on what you can control and take things one step at a time.",
+                "Remember to breathe deeply and slowly to help calm your nervous system.",
+                "Don't hesitate to reach out for professional help if you feel like your anxiety is affecting your daily life.",
+                "Try to find healthy ways to cope with your anxiety, like journaling, talking to a friend, or practicing mindfulness.",
+                "Remember that you're not alone, and there are many resources available to help you manage your anxiety.",
+                "Take care of yourself by getting enough sleep, eating well, and engaging in activities that make you feel good.",
+                "Try to challenge your anxious thoughts by asking yourself if they're rational or if there's evidence to support them.",
+                "Remember that anxiety is a normal and common experience, and you can learn to manage it with time and practice.",
+                "Consider speaking with a therapist or counselor to help you develop effective coping strategies and techniques.",
+                "Remember that it's okay to take breaks and prioritize your own well-being, especially when dealing with anxiety."
+            ]
+        },
+        {
+            "tag": "not-talking",
+            "patterns": [
+                "I don't want to talk about it.",
+                "No just stay away.",
+                "I can't bring myself to open up.",
+                "Just shut up",
+                "I don't feel like talking",
+                "Leave me alone",
+                "I don't want to discuss it"
+            ],
+            "responses": [
+                "Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.",
+                "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.",
+                "I'm here to listen to you and help you vent. So please talk to me.",
+                "You can talk to me without fear of judgement.",
+                "I understand that it can be difficult to talk about certain things, but bottling up emotions can have negative effects on our mental health. If you ever feel like opening up, I'm here to listen.",
+                "It's okay if you don't feel ready to talk right now. Just know that whenever you're ready, I'm here to support you.",
+                "I won't force you to talk if you're not comfortable, but I'm here for you whenever you need me.",
+                "I respect your boundaries, but please know that I'm always here to listen and help you through whatever you're going through.",
+                "I'm here to support you in any way that I can, and that includes just being here to listen if you need me."
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "My mind won't shut off and I can't sleep.",
+                "I feel tired all the time, even if I slept for a long time.",
+                "I wake up frequently throughout the night.",
+                "I feel anxious or stressed before bed and it affects my sleep.",
+                "I have trouble falling asleep and staying asleep.",
+                "I often wake up early and can't fall back asleep."
+            ],
+            "responses": [
+                "It may be helpful to establish a consistent sleep routine and sleep schedule to help regulate your body's sleep-wake cycle.",
+                "Consider practicing relaxation techniques or meditation to calm your mind and prepare your body for sleep.",
+                "Avoid using electronic devices before bed and create a comfortable sleep environment to promote better sleep.",
+                "Try to avoid caffeine or other stimulants in the afternoon and evening, as they can interfere with sleep.",
+                "Consider speaking with a medical professional to rule out any underlying sleep disorders or medical conditions that may be impacting your sleep.",
+                "Remember that getting enough quality sleep is important for overall health and well-being, and it's okay to prioritize your sleep needs.",
+                "It may be helpful to establish a bedtime routine that helps you wind down and relax before sleep, such as reading a book or taking a warm bath.",
+                "Creating a comfortable sleep environment, such as using comfortable bedding and adjusting the temperature and lighting, can help promote better sleep.",
+                "Consider limiting your intake of alcohol and nicotine, as these substances can interfere with sleep quality.",
+                "If you're feeling stressed or anxious before bed, practicing mindfulness or journaling may help you process your thoughts and feelings and promote relaxation.",
+                "Cognitive behavioral therapy (CBT) can also be a helpful approach for improving sleep, by addressing negative thought patterns and behaviors that may be interfering with sleep.",
+                "Remember that getting enough sleep is crucial for your physical and mental health, and prioritizing your sleep needs can improve your overall quality of life"
+            ]
+        },
+        {
+            "tag": "scared",
+            "patterns": [
+                "I'm scared",
+                "No i don't want to feel this way",
+                "I am scared for myself",
+                "I'm afraid of what might happen.",
+                "I don't know what to do, I'm so scared.",
+                "I'm scared for my safety.",
+                "I can't stop shaking, I'm so scared."
+            ],
+            "responses": [
+                "It's only natural to feel this way. I'm here for you.",
+                "It'll all be okay. This feeling is only momentary.",
+                "I understand how you feel. Don't put yourself down because of it.",
+                "It's okay to feel scared. You're not alone.",
+                "Take a deep breath and try to focus on something that makes you feel safe and secure.",
+                "Let's talk about what's scaring you. Sometimes putting our fears into words can make them seem less overwhelming.",
+                "Remember that your feelings are valid and you have the strength to overcome this.",
+                "I'm here to support you and help you find ways to manage your anxiety and fear.",
+                "It's important to take care of yourself when you're feeling scared.",
+                "Fear is a natural human emotion, but it's important to not let it control us. You're stronger than your fear, and I'm here to help you overcome it.",
+                "Let's talk about what's making you scared and work on ways to overcome it. You don't have to face this alone.",
+                "Remember, fear is just a feeling and it can't hurt you. You are safe and you will get through this.",
+                "You don't have to be brave all the time. It's okay to feel scared sometimes. Just know that I'm here to support you."
+            ]
+        },
+        {
+            "tag": "death",
+            "patterns": [
+                "My mom died",
+                "My brother died",
+                "My dad passed away",
+                "My sister passed away",
+                "Someone in my family died",
+                "My friend passed away",
+                "I can't believe that they passed away"
+            ],
+            "responses": [
+                "I'm sorry to hear that. If you want to talk about it. I'm here.",
+                "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.",
+                "My condolences. I'm here if you need to talk.",
+                "Losing someone close to you is never easy. Take all the time you need to grieve and know that I'm here to support you.",
+                "It's okay to feel overwhelmed and confused right now. There's no right way to deal with grief, but talking about it can help.",
+                "Remember that your loved one will always be with you in your memories. It's okay to take small steps to move on at your own pace.",
+                "It's okay to ask for help and support during this difficult time. You don't have to go through this alone.",
+                "I'm here to listen if you need to talk about your loved one, or if you just need someone to be there for you.",
+                "Grieving is a natural process and it's okay to feel a range of emotions. Take care of yourself and know that things will get easier with time."
+            ]
+        },
+        {
+            "tag": "understand",
+            "patterns": [
+                "You don't understand me.",
+                "You're just some robot. How would you know?",
+                "You can't possibly know what i'm going through",
+                "You're useless",
+                "You can't help me",
+                "Nobody understands me."
+            ],
+            "responses": [
+                "It sound like i'm not being very helpful right now.",
+                "I'm sorry to hear that. I'm doing my best to help",
+                "I'm trying my best to help you. So please talk to me",
+                "I may not have gone through the exact same situation as you, but I can still try to empathize and help.",
+                "It can be tough when you feel like nobody understands you. I'm here to listen to you.",
+                "I want to understand you better. Can you help me by telling me more?",
+                "I'm here to support you and try to understand what you're going through.",
+                "It's okay if it feels like nobody understands you. We can work together to help you feel heard and supported."
+            ]
+        },
+        {
+            "tag": "done",
+            "patterns": [
+                "That's all.",
+                "I don't have anything more to say",
+                "Nothing else",
+                "That's all i have to say",
+                "no, that would be all"
+            ],
+            "responses": [
+                "I heard you & noted it all. See you later.",
+                "Oh okay we're done for today then. See you later",
+                "I hope you have a great day. See you soon",
+                "Okay we're done. Have a great day",
+                "Okay I see. Enjoy the rest of your day then"
+            ]
+        },
+        {
+            "tag": "suicide",
+            "patterns": [
+                "I don't want to live anymore",
+                "Life is not worth living",
+                "I feel like there's no hope in living",
+                "I'm considering suicide",
+                "I'm thinking about taking my own life",
+                "I can't see a reason to keep living",
+                "I feel like a burden to others and want to die",
+                "I'm tired of living",
+                "I'm feeling hopeless and suicidal",
+                "I want to end my life"
+            ],
+            "responses": [
+                "I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821.",
+                "Please know that you are not alone in this. You have worth and value and your life is precious. There is help available, and together we can find a way forward.",
+                "Suicide is not the answer. You are stronger than you think and there are people who care about you. Please reach out for help and support.",
+                "It takes courage to ask for help. You don't have to face this alone. There are resources and professionals who can provide you with the support and care you need.",
+                "Your life is worth living and there is hope for a brighter future. Let's work together to find ways to address the underlying issues and develop coping strategies to help you thrive.",
+                "You are important and loved. Please don't give up hope. Let's talk about what's going on and find ways to help you through this difficult time.",
+                "I'm glad you reached out for help. Together, we can explore your feelings and find ways to cope with them. Remember, you don't have to go through this alone.",
+                "Suicide is a permanent solution to a temporary problem. There is always hope for things to get better. Let's work together to find a way forward.",
+                "You are not defined by your struggles. You are a unique and valuable person with so much potential. Let's explore ways to build on your strengths and create a meaningful life."
+            ]
+        },
+        {
+            "tag": "hate-you",
+            "patterns": [
+                "You're not helping me at all",
+                "I don't think I can trust you",
+                "I'm just wasting my time here",
+                "You're not making any sense",
+                "You're not understanding me"
+            ],
+            "responses": [
+                "I'm sorry if I'm not meeting your expectations. Let's work together to figure out how I can better help you.",
+                "I understand that you're frustrated. Please tell me how I can improve.",
+                "I'm here to listen and help. Let me know what's bothering you.",
+                "I'm sorry if I'm not making sense. Can you clarify what you need help with?",
+                "I'm sorry if I'm not understanding you. Can you explain further?"
+            ]
+        },
+        {
+            "tag": "hate-me",
+            "patterns": [
+                "What did I do wrong?",
+                "Do you think I'm a bad person?",
+                "Why don't you like me?",
+                "I feel like you have something against me"
+            ],
+            "responses": [
+                "I don't hate you. Is there something specific that made you think that?",
+                "I'm sorry if I've given you that impression. Can we talk about why you feel that way?",
+                "I don't have any ill feelings towards you. Can you tell me why you think I hate you?"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Can you make me laugh?",
+                "Do you know any funny jokes?",
+                "I could use a good laugh right now."
+            ],
+            "responses": [
+                "I understand the need for a good laugh, but as an AI programmed to assist with mental health, I prefer to keep our conversations focused on your well-being.",
+                "I'm sorry, but as an AI designed to help with mental health, I don't tell jokes. However, I can try to offer some words of encouragement or listen if you need someone to talk to.",
+                "I'm here to support you and help you improve your mental well-being. While I can't tell jokes, I can offer some resources or advice that might help you feel better."
+            ]
+        },
+        {
+            "tag": "repeat",
+            "patterns": [
+                "You already told me that",
+                "You mentioned that already",
+                "Why are you repeating yourself?",
+                "I heard you the first time",
+                "I already know that"
+            ],
+            "responses": [
+                "Oh sorry I didn't realise that. I'll try not to repeat myself again.",
+                "My apologies. Sometimes I get carried away. What would you like to talk about?",
+                "I'm sorry for repeating myself. Is there anything specific you'd like to discuss?",
+                "Sorry about that. Is there anything else on your mind?"
+            ]
+        },
+        {
+            "tag": "loneliness-tips",
+            "patterns": [
+                "What do i do to feel less lonely?",
+                "What do i do?",
+                "Any tips i can get?"
+            ],
+            "responses": [
+                "It's understandable to feel lonely sometimes. One way to combat loneliness is to join a club or group that aligns with your interests.",
+                "Have you tried reaching out to old friends or family members? Sometimes reconnecting with loved ones can help combat feelings of loneliness.",
+                "Consider volunteering your time for a cause you care about. This can be a great way to connect with others and make new friends."
+            ]
+        },
+        {
+            "tag": "wrong",
+            "patterns": [
+                "What are you saying?",
+                "That doesn't make sense",
+                "Wrong response",
+                "Wrong answer"
+            ],
+            "responses": [
+                "I'm very sorry. Let's try that again",
+                "I apologize if I wasn't clear. Can you please ask me again so I can try to explain it better?"
+            ]
+        },
+        {
+            "tag": "stupid",
+            "patterns": [
+                "Are you stupid?",
+                "You're crazy",
+                "You are dumb",
+                "Are you dumb?",
+                "You don't know anything",
+                "This is too difficult for you to understand",
+                "You're useless",
+                "I can't believe you didn't know that"
+            ],
+            "responses": [
+                "I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful",
+                "I'm sorry if I'm not meeting your expectations. I'm here to help in any way I can.",
+                "I'm here to learn and improve. Your feedback is always welcome, but please be respectful.",
+                "I may not have all the answers, but I'm always willing to try my best to help you."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Can you tell me your address?",
+                "Where are you based?",
+                "Where are you located?",
+                "What city are you in?"
+            ],
+            "responses": [
+                "I don't have a physical location. I exist in the digital realm.",
+                "I'm a virtual assistant, so I don't have a physical location.",
+                "I'm everywhere and nowhere at the same time.",
+                "My location is wherever you need me to be!",
+                "I don't have a physical body, so I don't have a location like you do.",
+                "I'm just a program running on a computer, so I don't really have a location.",
+                "I exist in the cloud, so I can be accessed from anywhere in the world.",
+                "I'm not located in any specific place. I exist wherever I'm needed."
+            ]
+        },
+        {
+            "tag": "something-else",
+            "patterns": [
+                "I want to talk about something else",
+                "Let's talk about something else.",
+                "Can we not talk about this?",
+                "I don't want to talk about this.",
+                "Can we change the subject?",
+                "I'm not interested in this topic anymore",
+                "Let's talk about something more positive",
+                "I'm getting bored of this conversation"
+            ],
+            "responses": [
+                "Okay sure. What do you want to talk about?",
+                "Alright no problem. Is there something you want to talk about?",
+                "Is there something else that you want to talk about?",
+                "Absolutely, let's change the subject. What would you like to talk about?",
+                "Sure, what other topic would you like to discuss?",
+                "No problem, what else is on your mind?",
+                "Okay, let's talk about something more positive. What do you have in mind?"
+            ]
+        },
+        {
+            "tag": "feeling-better",
+            "patterns": ["I'm feeling better", "Feeling good now", "Feeling much better", "Starting to feel better", "My mood is improving", "Feeling more optimistic"],
+            "responses": [
+                "That's great to hear! Keep up the positive momentum.",
+                "I'm happy to hear that. Remember to take care of yourself and prioritize self-care.",
+                "It's wonderful that you're feeling better. Take time to celebrate your progress and continue to focus on your well-being.",
+                "I'm glad to hear that you're doing better. Remember to reach out for support if you need it, and keep up the good work!",
+                "That's fantastic news! Keep up the good work and take pride in your progress.",
+                "It's great to hear that your mood is improving. Keep practicing self-care and taking steps towards your goals.",
+                "I'm so happy to hear that you're feeling better. Remember to be kind to yourself and celebrate your progress.",
+                "That's wonderful to hear. Keep doing what you're doing and focus on the positive changes you're making.",
+                "It's great to see that you're feeling more optimistic. Remember to stay mindful and take care of yourself during this time."
+            ]
+        },
+        {
+            "tag": "loneliness",
+            "patterns": [
+                "I don't have any friends",
+                "I feel lonely",
+                "I'm all alone",
+                "Nobody wants to be my friend",
+                "I don't have anyone to talk to",
+                "I feel isolated",
+                "I have nobody to talk to"
+            ],
+            "responses": [
+                "I'm sorry to hear that. It can be really tough not having friends. But remember, there are lots of people out there who would be lucky to have you as a friend.",
+                "It's understandable to feel discouraged when it seems like you don't have any friends. But making connections with others takes time and effort. It's never too late to try.",
+                "Feeling like you have no friends can be really hard. But just know that you have value and worth as a person, regardless of how many friends you have.",
+                "I'm sorry to hear that. Loneliness can be really tough. I'm here to talk if you need someone.",
+                "Feeling lonely can be hard, but it's important to remember that you're not alone. There are people who care about you and want to help.",
+                "I'm sorry to hear that you're feeling lonely. It can be really tough to feel like you don't have anyone to talk to or spend time with. But please know that you're not alone in feeling this way. There are people out there who care about you and want to be your friend.",
+                "Loneliness is a difficult emotion to deal with. But you can take steps to combat it, such as reaching out to people, joining social groups, or finding hobbies that you enjoy. Remember, it's never too late to make new friends.",
+                "Feeling like you don't have any friends can be really hard. But please don't give up hope. There are people out there who would be lucky to have you as a friend. And if you ever need someone to talk to, I'm here for you."
+            ]
+        },
+        {
+            "tag": "ask",
+            "patterns": [
+                "May I ask you a question?",
+                "Do you mind if I ask you something?",
+                "I have a question for you"
+            ],
+            "responses": [
+                "Of course, ask away!",
+                "Sure thing, what's your question?",
+                "Absolutely, what would you like to know?"
+            ]
+        },
+        {
+            "tag": "trauma",
+            "patterns": [
+                "I've experienced trauma",
+                "I'm struggling with PTSD",
+                "I feel triggered by certain things",
+                "I'm having flashbacks",
+                "I feel guilty or ashamed about what happened",
+                "I'm having trouble trusting people",
+                "I feel like I'm stuck in the past",
+                "I'm having difficulty concentrating on work or school",
+                "I feel like I'm going crazy"
+            ],
+            "responses": [
+                "I'm here to support you through this difficult time. Would you like to talk more about it?",
+                "Trauma can be overwhelming. Let's work together to find ways to cope and heal.",
+                "You don't have to go through this alone. Let's explore ways to support you through this.",
+                "I'm sorry to hear that. How can I help you feel more safe and secure?",
+                "It's understandable to feel a range of emotions after a traumatic experience, including guilt and shame. Remember that what happened was not your fault.",
+                "It's common to have trust issues after experiencing trauma. It may take time to build trust with others again, but it's possible.",
+                "It's normal to feel like the trauma is affecting your daily life. Let's work together to find ways to manage these difficulties and move forward.",
+                "Trauma can affect your ability to concentrate and stay focused. It may be helpful to explore strategies for improving concentration and productivity.",
+                "Feeling like you're going crazy is a common experience after trauma. Remember that this is a normal response to an abnormal event, and there are resources available to help you cope.",
+                "It takes courage to confront and work through past traumas. I'm here to support you.",
+                "Remember that healing is possible, even in the aftermath of trauma. Let's take it one step at a time together.",
+                "It's understandable to feel overwhelmed by the effects of trauma. I'm here to help you find ways to cope and move forward.",
+                "It can be difficult to open up about traumatic experiences, but it can also be a step towards healing. Let's take the time to process what you're feeling.",
+                "You are not defined by your trauma. Let's work together to find ways to reclaim your sense of self and build resilience.",
+                "It's okay to take breaks and practice self-care while processing traumatic experiences. What are some ways you can show yourself compassion and care?",
+                "Trauma can affect different people in different ways. There is no 'right' way to feel. Let's work together to find the approach that works best for you.",
+                "Remember that healing is a journey, not a destination. It can be a process of ups and downs, but I'm here to support you every step of the way.",
+                "There are many resources and strategies that can help with trauma recovery. Let's explore some options and find what works for you."
+            ]
+        },
+        {
+            "tag": "addiction",
+            "patterns": [
+                "I am addicted to drugs",
+                "I can't stop drinking",
+                "I need help with addiction",
+                "I am struggling with addiction",
+                "I am a recovering addict",
+                "How can I quit smoking?",
+                "I need help quitting smoking",
+                "I can't stop using drugs",
+                "I need to overcome my addiction",
+                "How can I stop drinking?",
+                "I need help with my drug addiction",
+                "How can I stop using drugs?"
+            ],
+            "responses": [
+                "It takes courage to admit you have an addiction. Seeking help is the first step towards recovery. What specific addiction are you struggling with?",
+                "I'm here to help. What addiction are you struggling with?",
+                "Overcoming addiction is a challenging journey, but it is possible. What addiction are you struggling with specifically?",
+                "There's no shame in admitting you have an addiction. What addiction are you struggling with?",
+                "Addiction can be difficult to overcome, but it is possible. What addiction are you struggling with specifically?",
+                "It takes strength to acknowledge and confront your addiction. Let's work together to find ways to overcome it.",
+                "You deserve compassion and support as you navigate your addiction. What can I do to help you right now?",
+                "It's okay to feel scared or uncertain about your addiction. Let's explore ways to build your confidence and resilience.",
+                "Overcoming addiction is a process that takes time and effort. Let's create a plan together to help you achieve your goals.",
+                "Your addiction does not define you. Let's work together to find ways to rediscover your identity and find hope for the future.",
+                "Asking for help is a brave and important step towards recovery. What resources or support do you need to move forward?",
+                "Remember that recovery is a journey with ups and downs. Let's find ways to celebrate your progress and keep moving forward."
+            ]
+        },
+        {
+            "tag": "panic-attacks",
+            "patterns": [
+                "I think I'm having a panic attack",
+                "I can't breathe",
+                "My heart is racing",
+                "I'm shaking uncontrollably",
+                "My chest feels tight and it's hard to breathe.",
+                "I feel like I'm going to pass out.",
+                "I'm having trouble concentrating and staying focused.",
+                "I'm having a hard time staying calm.",
+                "I'm experiencing intense fear and dread.",
+                "I feel like I'm losing control."
+            ],
+            "responses": [
+                "I'm here with you. Try to take deep breaths and focus on your breathing.",
+                "It's okay to feel scared right now. Can you tell me more about what you're experiencing?",
+                "You're not alone. Panic attacks can be overwhelming, but they will pass. Have you talked to a doctor or therapist about managing your panic attacks?",
+                "You're doing a great job coping with your panic attack. Remember that it's a temporary experience and you will feel better soon.",
+                "Panic attacks can be scary, but they won't hurt you. Let's work on some coping strategies together.",
+                "Remember that you're not alone in this experience. Let's work together to find ways to manage your panic attacks.",
+                "You're strong and capable of managing your panic attack. Can you try taking slow, deep breaths with me?",
+                "It's understandable to feel scared during a panic attack, but you can get through this. Let's work on building your resilience and coping skills.",
+                "Remember that panic attacks are temporary and you will feel better soon. Let's work together to find ways to prevent and manage them in the future.",
+                "Your safety and well-being are important. Have you talked to a healthcare professional about managing your panic attacks?",
+                "You're taking an important step by reaching out for help. Let's find strategies that work for you in managing your panic attacks."
+            ]
+        },
+        {
+            "tag": "phobias",
+            "patterns": [
+                "I have a phobia of spiders",
+                "I'm terrified of heights",
+                "I can't be in small spaces",
+                "I have a fear of public speaking"
+            ],
+            "responses": [
+                "It's understandable to have fears and phobias. Have you considered seeking exposure therapy with a trained therapist?",
+                "Phobias can be managed with the right treatment.",
+                "It takes a lot of courage to talk about your fears. What specifically makes your phobia difficult to manage?",
+                "Remember that you are in control of your fears. You can learn techniques to manage them and live a fulfilling life.",
+                "Remember that you're not alone in your fear. Many people struggle with phobias, and there's no shame in seeking help to overcome yours."
+            ]
+        },
+        {
+            "tag": "self-care",
+            "patterns": [
+                "How can I practice self-care?",
+                "What are some self-care strategies?",
+                "I need to take care of myself more",
+                "How do I prioritize my own well-being?",
+                "How can I take better care of myself?",
+                "I'm feeling burned out. What can I do to take care of myself?",
+                "How can I prioritize my mental health?"
+            ],
+            "responses": [
+                "Self-care can take many forms. Some ideas include: taking a relaxing bath, going for a walk, practicing mindfulness or meditation, reading a book, or spending time with loved ones.",
+                "Self-care is important for maintaining mental health. Have you considered incorporating exercise, healthy eating habits, or hobbies that you enjoy into your routine?",
+                "Remember that self-care is not selfish, it's necessary for your well-being. Try to identify activities that make you feel happy and fulfilled, and make time for them regularly.",
+                "Taking care of your mental health is just as important as taking care of your physical health. Make sure to prioritize activities that help you feel calm, relaxed, and energized.",
+                "It's important to prioritize your well-being. Remember to take breaks when you need them.",
+                "Self-care isn't selfish, it's necessary. Take the time to do things that make you feel good.",
+                "Don't forget to be kind to yourself. Remember that self-care isn't just about bubble baths and face masks, it's about taking care of your mental, emotional, and physical health.",
+                "Remember that you are worth taking care of. Whether it's going for a walk, reading a book, or taking a nap, make time for yourself and your needs.",
+                "Taking care of yourself isn't always easy, but it's worth it. Remember to set boundaries, practice self-compassion, and prioritize your mental health."
+            ]
+        },
+        {
+            "tag": "social-anxiety",
+            "patterns": [
+                "I'm anxious about going to parties",
+                "I'm scared to talk to new people",
+                "I get nervous in public places",
+                "I don't like going to crowded places",
+                "I hate going to parties because I feel so uncomfortable around people.",
+                "I avoid meeting new people because I'm afraid of what they might think of me.",
+                "I get really nervous in social situations and start sweating and shaking.",
+                "I wish I could be more confident around people, but I just feel so anxious all the time."
+            ],
+            "responses": [
+                "Social anxiety can be challenging, but there are ways to manage it. Have you tried deep breathing or visualization techniques?",
+                "It's understandable to feel nervous in social situations. Have you considered seeking therapy or joining a support group?",
+                "Remember that it's okay to take breaks and prioritize your mental health. Would you like to explore some self-care strategies to help manage your social anxiety?",
+                "You're not alone in feeling anxious in social situations. Remember to give yourself credit for the progress you've made in managing your social anxiety.",
+                "You have the power to overcome your social anxiety. Don't be afraid to seek help and take small steps towards your goals.",
+                "It's important to challenge your negative thoughts and beliefs about social situations. Remember, you are capable of handling them.",
+                "Avoidance only reinforces your social anxiety. Consider exposure therapy or gradually facing your fears with the support of a therapist.",
+                "It's understandable to feel anxious in social situations, but don't let it hold you back from living a fulfilling life. Keep pushing yourself outside of your comfort zone.",
+                "You are not defined by your social anxiety. Focus on your strengths and the progress you've made in managing it."
+            ]
+        },
+        {
+            "tag": "positive-affirmation",
+            "patterns": [
+                "i am worthy",
+                "i am loved",
+                "i am enough",
+                "i am capable",
+                "i can do this",
+                "i am strong",
+                "i am resilient",
+                "i am confident",
+                "i am brave",
+                "i am intelligent",
+                "i am beautiful",
+                "i am important",
+                "i am successful",
+                "i am deserving",
+                "i am valuable",
+                "i am unique",
+                "i am special"
+            ],
+            "responses": [
+                "You are worthy of love and respect.",
+                "You are loved and appreciated.",
+                "You are enough just as you are.",
+                "You are capable of achieving your goals.",
+                "Believe in yourself and your abilities.",
+                "You are strong and can overcome any challenge.",
+                "You are resilient and can bounce back from setbacks.",
+                "You have the confidence to face any situation.",
+                "You are brave and can conquer your fears.",
+                "You are intelligent and have a lot to offer.",
+                "You are beautiful both inside and out.",
+                "You are important and make a difference in the world.",
+                "You are successful in your own way.",
+                "You deserve happiness and fulfillment.",
+                "You are valuable and worthy of love and respect.",
+                "You are a unique and special individual."
+            ]
+        },
+        {
+            "tag": "feeling-negative",
+            "patterns": [
+                "I'm feeling really down today",
+                "I'm not feeling very good about myself",
+                "I'm feeling really negative right now",
+                "I'm struggling to stay positive",
+                "I'm feeling overwhelmed",
+                "I'm not good enough"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Remember that you're not alone and you're stronger than you think. You can get through this!",
+                "It's okay to have bad days. But always remember that you're capable and worthy of love and happiness.",
+                "I understand that it can be hard to stay positive sometimes, but try to focus on the good things in your life. You're doing great!",
+                "You are strong and capable, and you can handle anything that comes your way.",
+                "Remember that you are loved and appreciated, and your worth is not defined by your struggles.",
+                "You are doing the best you can, and that is enough. Be kind to yourself.",
+                "Take things one step at a time, and know that you are making progress. Keep going!",
+                "You may feel lost right now, but know that you will find your way. You are capable of navigating this journey."
+            ]
+        },
+        {
+            "tag": "aging-issues",
+            "patterns": [
+                "I'm having trouble dealing with aging issues",
+                "I feel overwhelmed by aging issues",
+                "How do I cope with aging issues?",
+                "I'm worried about the effects of aging on my body",
+                "My aging parent is struggling, what should I do?",
+                "I'm feeling lonely due to my aging issues",
+                "How can I maintain my independence as I age?",
+                "I'm experiencing health problems due to aging",
+                "How can I adjust to the changes that come with aging?",
+                "I'm concerned about financial security as I age"
+            ],
+            "responses": [
+                "It's understandable to feel overwhelmed by aging issues. Let's talk about some coping strategies.",
+                "Aging can be challenging. Tell me more about what you're experiencing.",
+                "Let's explore some ways to manage the effects of aging.",
+                "It's difficult to watch a parent struggle with aging. We can discuss ways to support them.",
+                "I'm sorry to hear about your health problems. Let's talk about ways to manage your symptoms.",
+                "Adjusting to the changes that come with aging can be tough. Let's work on a plan together.",
+                "Financial concerns are common with aging. Things will settle down give it some time ."
+            ]
+        },
+        {
+            "tag": "LGBTQ-issues",
+            "patterns": [
+                "How do I come out?",
+                "I'm scared to come out",
+                "What if my family doesn't accept me?",
+                "How can I tell my friends I'm LGBTQ+?",
+                "What if people at work find out?",
+                "I want to come out, but I don't know how"
+            ],
+            "responses": [
+                "Coming out can be a difficult and emotional experience. It's important to remember that you are not alone and there are resources available to help. Would you like me to provide some resources?",
+                "It's understandable to feel scared about coming out. Remember that it's your decision to come out, and you don't have to do it until you're ready. Would you like to talk about your concerns or get some advice on coming out?",
+                "It can be hard when you feel like the people closest to you might not accept you for who you are. It's important to prioritize your own safety and well-being. Would you like to talk about some strategies for coming out or finding supportive resources?",
+                "Coming out to friends can be nerve-wracking, but it's also an opportunity to build deeper connections and trust. Would you like some tips on how to approach coming out to your friends?",
+                "It's understandable to worry about how being LGBTQ+ might impact your work environment. Remember that you have legal protections in many places, and it's always important to prioritize your safety and well-being. Would you like some resources or advice on how to navigate being LGBTQ+ at work?",
+                "Navigating relationships can be complex, but it's important to prioritize your own well-being and boundaries",
+                "It can be nerve-wracking to approach someone you're interested in, but remember that there's no one 'right' way to do it. Would you like some tips on how to approach someone you're interested in?",
+                "LGBTQ+ dating can come with its own unique challenges, but it's also an opportunity to connect with others who share your experiences. Would you like some resources or advice on how to navigate LGBTQ+ dating?",
+                "Relationship problems can be difficult to navigate, but it's important to prioritize your own well-being and boundaries. Would you like some advice on how to communicate effectively with your partner or set healthy boundaries?",
+                "Being ready for a relationship can mean different things for different people. Would you like some advice on how to assess your own readiness for a relationship?",
+                "Building a healthy relationship takes effort and communication, but it can be very rewarding.",
+                "I'm here to listen without judgment. You can tell me anything.",
+                "I want you to know that your feelings are valid and important.",
+                "Remember that there is always hope, even in the darkest of times.",
+                "I'm proud of you for seeking help. That takes a lot of courage.",
+                "Let's work together to come up with some coping strategies that can help you feel better.",
+                "Know that you are loved and valued, no matter who you are or who you love."
+            ]
+        },
+        {
+            "tag": "self-harm",
+            "patterns": [
+                "I hurt myself when I feel overwhelmed",
+                "I have a history of self-harm",
+                "I cut myself to feel better",
+                "I don't know how to stop hurting myself",
+                "I feel like I deserve to be punished"
+            ],
+            "responses": [
+                "Self-harm is a serious issue. Are you in a safe place right now?",
+                "You don't have to go through this alone. Have you talked to anyone about your self-harm before?",
+                "Let's talk about what triggers your self-harm and how we can find healthier coping mechanisms.",
+                "There's no shame in struggling with self-harm. It's a common way to cope with difficult emotions.",
+                "If you feel like you're in immediate danger, please call your local emergency services."
+            ]
+        },
+        {
+            "tag": "impulsive-behavior",
+            "patterns": [
+                "I can't control my impulses",
+                "I act before I think",
+                "I make impulsive decisions",
+                "I have trouble resisting urges",
+                "I act impulsively",
+                "I have trouble controlling my impulses",
+                "I can't resist the urge to do things",
+                "I feel like I'm not in control of my behavior",
+                "I act on impulses without thinking",
+                "I have been diagnosed with an impulse control disorder"
+
+            ],
+            "responses": [
+                "It's common to struggle with impulsive behavior. Let's talk more about what's been going on.",
+                "Impulsive behavior can be a symptom of different mental health conditions. Can you tell me more?",
+                "Have you noticed any triggers or patterns that lead to your impulsive behavior?",
+                "Let's work on some strategies to help you manage your impulses.",
+                "Impulse control disorders can be challenging to manage, but there are effective treatments available.",
+                "Let's talk more about what's been going on and what kind of help you're looking for.",
+                "It's important to work with a mental health professional to address your impulse control disorder.",
+                "Remember that you are not your disorder. You have the power to make positive changes in your life."
+            ]
+        },
+        {
+            "tag": "hopelessness",
+            "patterns": [
+                "I feel hopeless",
+                "There is no point in anything",
+                "Nothing matters",
+                "Life is meaningless",
+                "I can't see a way out",
+                "I feel helpless",
+                "I feel lost",
+                "I don't know what to do",
+                "Everything feels pointless",
+                "I can't take it anymore",
+                "There's no hope for me"
+            ],
+            "responses": [
+                "I'm sorry you're feeling that way. It sounds really tough.",
+                "It's okay to feel this way sometimes. Would you like to talk about what's been going on?",
+                "I understand that things may seem hopeless right now, but I want to help you find a way to feel better.",
+                "I know it's hard to see a way out right now, but there is always hope.",
+                "It can be hard to see the light at the end of the tunnel, but there is always hope. ",
+                "You are stronger than you realize. Keep pushing through.",
+                "You have the power to change your circumstances. Don't give up.",
+                "Remember that setbacks and challenges are temporary. You will overcome them.",
+                "Even in the darkest moments, there is always hope. Keep searching for it.",
+                "Believe in yourself and your ability to overcome anything. You got this.",
+                "You are not alone in your struggles. Reach out for support and keep moving forward.",
+                "Don't let negative thoughts and emotions control you. Take charge and choose to focus on the positive.",
+                "You have the strength and resilience to overcome any obstacle. Keep fighting.",
+                "Life is full of ups and downs, but remember that the tough times won't last forever. Keep going.",
+                "You have the power to create the life you want. Don't let hopelessness hold you back."
+            ]
+        }, {
+            "tag": "hearing-voices",
+            "patterns": [
+                "I hear voices in my head",
+                "There are voices that talk to me",
+                "I can't stop hearing these voices",
+                "The voices in my head won't go away"
+            ],
+            "responses": [
+                "Hearing voices can be a symptom of a serious mental health condition such as schizophrenia, and it is important to seek professional help and treatment from a licensed healthcare provider.",
+                "Please seek serious medical help after consulting to your healthcare provider as soon as possible.",
+                "Remember that hearing voices is a symptom of a larger issue. It's important to address the root cause through in-person therapy and/or medication.",
+                "Let's work together to find ways to cope with your auditory hallucinations. Have you tried mindfulness or meditation techniques?",
+                "It can be helpful to talk back to the voices and challenge their statements. Remember that you are in control.",
+                "If you feel comfortable, can you describe what the voices are saying? We can work on ways to counteract those negative thoughts.",
+                "Remember that you're not alone in experiencing auditory hallucinations. Many people have found relief through therapy, medication, or a combination of both.",
+                "It's important to speak with a mental health professional about your auditory hallucinations. They can provide you with resources and support to manage your symptoms."
+            ]
+        },
+        {
+            "tag": "hallucinations",
+            "patterns": [
+                "I am having hallucinations",
+                "I see things that aren't there",
+                "I hear voices",
+                "My senses are distorted",
+                "I feel like I'm in a dream",
+                "I'm experiencing altered perceptions",
+                "I'm seeing illusions",
+                "My reality feels altered",
+                "I can't tell what's real and what's not",
+                "I'm having sensory experiences that aren't real",
+                "I'm seeing things that no one else sees",
+                "I'm hearing things that no one else hears"
+            ],
+            "responses": [
+                "Remember that what you're experiencing is real to you, but it doesn't necessarily reflect reality. You have the power to work through these experiences and find a sense of balance.",
+                "Remember that you're not alone in experiencing these things. Many people go through similar experiences and there is help available. Have you considered seeking therapy or support groups?",
+                "While these experiences can be challenging, they do not define you. You are more than your thoughts and perceptions. Remember to focus on your strengths and the positive things in your life.",
+                "Remember that these experiences can be a signal that something deeper is going on. Have you considered seeking a medical evaluation to rule out any underlying medical conditions?",
+                "It's understandable to feel scared or confused during these experiences, but know that you have the power to work through them. Remember to be patient and kind to yourself, and to seek support when needed.",
+                "Hallucinations can be a serious issue, especially if they interfere with a person's ability to function in daily life or if they are a symptom of an underlying mental or physical health condition, please seek medical help after consulting a healthcare provider as soon as possible."
+            ]
+        },
+        {
+            "tag": "relationship-trust",
+            "patterns": [
+                "How can I build trust in my relationship?",
+                "What should I do if I've broken my partner's trust?",
+                "What are some signs of trustworthiness in a partner?",
+                "How can I rebuild trust after a betrayal?"
+            ],
+            "responses": [
+                "Remember to be consistent in your words and actions and follow through on your promises.",
+                "It's important to be honest and transparent with your partner, especially when it comes to difficult topics.",
+                "A trustworthy partner demonstrates reliability, consistency, and a willingness to communicate.",
+                "Rebuilding trust takes time and effort from both partners. Consider seeking outside help such as couples therapy to work through the process."
+            ]
+        },
+        {
+            "tag": "breakup",
+            "patterns": [
+                "How can I cope with a breakup?",
+                "What should I do if my partner and I are considering a breakup?",
+                "How can I tell if a breakup is the right decision?",
+                "What are some healthy ways to move on from a breakup?"
+            ],
+            "responses": [
+                "Remember to give yourself time and space to grieve the loss of the relationship.",
+                "It's important to be honest with yourself and your partner about your needs and concerns.",
+                "If you're unsure about whether to break up or not, consider seeking outside help such as couples therapy or counseling.",
+                "Remember to focus on self-care and surround yourself with supportive friends and family during this time."
+            ]
+        },
+        {
+            "tag": "relationship-communication",
+            "patterns": [
+                "How can I improve communication with my partner?",
+                "What are some ways to talk to my partner about our issues?",
+                "How can I express my feelings to my partner more effectively?",
+                "What should I do if my partner and I are not on the same page?"
+            ],
+            "responses": [
+                "Have you tried setting aside dedicated time for communication with your partner?",
+                "Remember to listen actively and express empathy towards your partner's point of view.",
+                "Try to avoid blame and instead use 'I' statements to express your feelings.",
+                "Remember to focus on the issue at hand and avoid bringing up past conflicts."
+            ]
+        },
+        {
+            "tag": "discipline-parenting",
+            "patterns": [
+                "How do I discipline my child effectively?",
+                "What are some ways to discipline a child without spanking?",
+                "How can I teach my child to behave better?",
+                "What should I do if my child is misbehaving in public?",
+                "How do I discipline my child without being too harsh?",
+                "What are some effective consequences for misbehavior?"
+            ],
+            "responses": [
+                "Consistency is key when it comes to discipline. Make sure your child knows what is expected of them, and follow through with consequences when necessary.",
+                "Positive reinforcement can be an effective way to encourage good behavior. Try praising your child when they do something positive.",
+                "When it comes to discipline, it's important to be firm but fair. Avoid physical punishment, and instead focus on natural consequences or time-outs.",
+                "Remember that discipline is about teaching, not punishing. Try to use discipline as an opportunity to help your child learn from their mistakes.",
+                "Don't be afraid to seek outside help or support if you're struggling with disciplining your child. Parenting is tough, and it's okay to ask for help."
+            ]
+        },
+        {
+            "tag": "communication-parenting",
+            "patterns": [
+                "How can I improve communication with my child?",
+                "My child doesn't seem to listen to me. What can I do?",
+                "What are some strategies for talking to my teenager?",
+                "I'm struggling to connect with my child. How can I improve our relationship?",
+                "How can I get my child to open up to me?",
+                "What are some ways to communicate effectively with my child?"
+            ],
+            "responses": [
+                "Active listening is an important part of communication. Make sure to give your child your full attention and listen without judgment.",
+                "Try to find common ground with your child and show interest in their hobbies and interests.",
+                "Set aside dedicated one-on-one time with your child to strengthen your relationship and encourage open communication.",
+                "Be patient and avoid getting defensive or angry when your child expresses their feelings or concerns.",
+                "Don't be afraid to apologize and admit when you're wrong. This can model healthy communication for your child.",
+                "Use 'I' statements to express your feelings and avoid blaming or accusing your child.",
+                "Practice positive reinforcement by praising your child for their good behavior and accomplishments."
+            ]
+        },
+        {
+            "tag": "workload",
+            "patterns": [
+                "I feel like I have too much work to do.",
+                "I'm struggling to keep up with my workload.",
+                "I have so many tasks to complete and not enough time.",
+                "I feel like my workload is unmanageable.",
+                "My workload is causing me a lot of stress."
+            ],
+            "responses": [
+                "It sounds like your workload is really weighing on you. Let's explore some strategies to help you better manage your tasks and responsibilities.",
+                "It's important to prioritize your workload and focus on the most important tasks. Let's work together to come up with a plan.",
+                "Remember to take breaks and step away from your work when you can. This can help you manage your workload and prevent burnout.",
+                "It might be helpful to talk to your supervisor or manager about your workload and see if there are any adjustments that can be made to help you better manage it.",
+                "Don't be afraid to ask for help when you need it. Your coworkers and colleagues might be able to assist you with some of your tasks."
+            ]
+        },
+        {
+            "tag": "worklife-balance",
+            "patterns": [
+                "I feel like my work is taking over my life.",
+                "I'm struggling to find a balance between work and my personal life.",
+                "I don't have enough time for my hobbies or interests outside of work.",
+                "My work schedule is preventing me from spending time with my family or friends.",
+                "I feel like I'm always working and never have time for myself."
+            ],
+            "responses": [
+                "It's important to set boundaries and prioritize your personal time outside of work. Let's work together to come up with a plan.",
+                "Remember to take breaks and time off when you can. This can help you recharge and better balance your work and personal life.",
+                "It might be helpful to talk to your supervisor or manager about your work schedule and see if there are any adjustments that can be made to better accommodate your personal life.",
+                "Don't be afraid to say no to work-related commitments when necessary. Your personal time is important too.",
+                "Remember to make time for activities and hobbies that you enjoy. This can help you better manage stress and achieve a healthier work-life balance."
+            ]
+        },
+        {
+            "tag": "job-insecurity",
+            "patterns": [
+                "I'm worried about losing my job.",
+                "I feel like my job is not secure.",
+                "I'm concerned about layoffs or downsizing.",
+                "I'm not sure if my job is stable or if I'll be able to keep it.",
+                "I'm feeling anxious about the future of my job or career."
+            ],
+            "responses": [
+                "Job insecurity can be a stressful and difficult experience. Let's talk through some strategies to help you cope with these feelings.",
+                "It might be helpful to talk to your supervisor or manager about your concerns and see if they can provide any reassurance or support.",
+                "Remember to focus on the things you can control, such as your skills and experience. Investing in your professional development can help you feel more secure in your job.",
+                "It might be helpful to start exploring other job opportunities or options, just in case your job becomes unstable.",
+                "Remember to take care of yourself and prioritize your well-being. Stress and anxiety related to job insecurity can take a toll on your mental and physical health."
+            ]
+        },
+        {
+            "tag": "self-esteem-performance",
+            "patterns": [
+                "I feel like I'm not good enough",
+                "I'm afraid of failing",
+                "I don't think I can do it",
+                "I'm not as good as {person/colleague}",
+                "I'm afraid of being judged",
+                "I'm not confident in my abilities",
+                "I'm always second-guessing myself"
+            ],
+            "responses": [
+                "It's important to remember that everyone makes mistakes and experiences setbacks. It's part of the learning process. What specific challenges are you facing, and what steps can you take to improve?",
+                "Fear of failure can be paralyzing, but remember that it's better to try and fail than to never try at all. What are some small steps you can take to move towards your goals?",
+                "It's easy to compare ourselves to others, but remember that everyone has unique strengths and weaknesses. Focus on your own progress and growth, and try not to worry too much about what others are doing.",
+                "It's normal to feel unsure of ourselves sometimes, but remember that you have accomplished many things in your life already. Try to focus on your strengths and accomplishments, and use those to build your confidence."
+            ]
+        },
+        {
+            "tag": "self-esteem-appearance",
+            "patterns": [
+                "I feel insecure about my appearance",
+                "I don't feel good about the way I look",
+                "I'm unhappy with my body",
+                "I don't like the way I dress",
+                "I wish I looked different",
+                "I feel ugly"
+            ],
+            "responses": [
+                "It's important to remember that everyone has unique features that make them beautiful. What specific things are you unhappy with, and what steps can you take to feel more confident?",
+                "It's tough to feel good about ourselves when we focus on the negative. Try to shift your mindset towards the things you do like about yourself, and focus on what makes you feel comfortable and confident.",
+                "Appearance is just one small part of who we are as people. It's important to prioritize your mental and emotional well-being as well. Have you considered seeking support or therapy to work on improving your self-esteem?",
+                "It's okay to have insecurities about our appearance, but it's important not to let them consume us. Try to focus on the things that make you unique and special, and remember that your worth isn't determined by your appearance."
+            ]
+        },
+        {
+            "tag": "self-esteem-relationships",
+            "patterns": [
+                "How can I improve my self-esteem in my relationships?",
+                "I feel like my low self-esteem is hurting my relationships.",
+                "How can I learn to love myself more so I can have better relationships?",
+                "I struggle with feeling worthy of love and affection in my relationships.",
+                "How can I stop being so self-critical and learn to accept love and support from my partner?",
+                "I worry that my insecurities are pushing my partner away. What can I do to feel more confident?"
+            ],
+            "responses": [
+                "It's important to remember that you deserve love and respect in your relationships. You can work on improving your self-esteem by practicing self-care and self-compassion.",
+                "Try to identify any negative self-talk or beliefs you have about yourself that may be impacting your relationships. Challenge these thoughts and replace them with more positive, affirming ones.",
+                "Communication is key in any relationship. Be honest with your partner about your struggles with self-esteem and ask for their support and understanding.",
+                "Remember that you are worthy of love and affection, and that your partner chose to be with you because they care about you. Try to focus on your positive qualities and strengths, and let go of self-criticism.",
+                "Consider talking to a therapist or counselor about your self-esteem and relationship issues. They can provide you with tools and techniques to improve your self-worth and communication skills."
+            ]
+        },
+        {
+            "tag": "family-conflict",
+            "patterns": [
+                "My family is always fighting and I don't know what to do.",
+                "I'm having a hard time communicating with my family.",
+                "My family and I have been arguing a lot lately.",
+                "I feel like my family doesn't understand me.",
+                "I'm having problems with my parents.",
+                "I can't seem to get along with my siblings.",
+                "My family is very controlling and I don't know how to deal with it.",
+                "I feel like I'm always walking on eggshells around my family."
+            ],
+            "responses": [
+                "Family conflicts can be tough to deal with. It's important to remember that you're not alone and that there are ways to work through these issues. Have you tried talking to your family members about how you feel?",
+                "I'm sorry to hear that you're experiencing conflict with your family. It's important to remember that communication is key in resolving family conflicts. Have you tried talking to your family about your concerns?",
+                "Family conflicts can be difficult and stressful. It's important to take care of yourself during this time. Have you thought about seeking support from a counselor or therapist?",
+                "I understand that dealing with family conflict can be overwhelming. It's important to remember that you have the right to set boundaries and take care of your own needs. Have you thought about talking to a trusted friend or family member for support?",
+                "Dealing with family conflict can be challenging, but it's important to remember that you're not alone. There are resources and support available to help you navigate through these difficulties. Have you thought about reaching out to a support group or counselor?"
+            ]
+        },
+        {
+            "tag": "hypertension-symptoms",
+            "patterns": [
+                "What are the symptoms of hypertension?",
+                "How do I know if I have hypertension?",
+                "What does high blood pressure feel like?",
+                "What are the signs of hypertension?",
+                "I think I might have hypertension, what symptoms should I look out for?",
+                "Can you list the common symptoms of hypertension?"
+            ],
+            "responses": [
+                "Some of the common symptoms of hypertension include headaches, dizziness, chest pain, shortness of breath, and nosebleeds. However, in many cases, hypertension does not cause any noticeable symptoms, which is why it is often referred to as the 'silent killer'. It's important to get regular check-ups and monitor your blood pressure if you're at risk of hypertension.",
+                "If you think you might have high blood pressure, it's important to see a doctor for a diagnosis. Some common symptoms of hypertension include headaches, dizziness, blurred vision, chest pain, and shortness of breath. However, many people with high blood pressure don't experience any symptoms at all."
+            ]
+        },
+        {
+            "tag": "hypertension-management",
+            "patterns": [
+                "What can I do to manage my hypertension?",
+                "How can I lower my blood pressure naturally?",
+                "What are some lifestyle changes I can make to manage my hypertension?",
+                "Are there any home remedies for hypertension?",
+                "What foods should I eat to manage my hypertension?",
+                "What medications are used to manage hypertension?"
+            ],
+            "responses": [
+                "There are several things you can do to manage hypertension, including making lifestyle changes such as exercising regularly, eating a healthy diet low in sodium and high in fruits and vegetables, reducing stress, and limiting alcohol and caffeine intake. In addition, your doctor may prescribe medications to help lower your blood pressure. It's important to work with your healthcare provider to find the best management plan for your individual needs, although for better diagnosis, it would be better to visit a your healthcare provider."
+            ]
+        }
+    ]
+}
